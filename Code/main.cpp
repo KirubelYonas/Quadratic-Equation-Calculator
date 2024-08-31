@@ -46,7 +46,7 @@ int main() {
 
     // Loop until a valid quadratic equation is provided
     while (!validInput) {
-        cout << "Enter a quadratic equation in the form 'ax^2 + bx + c = 0'.\nPlease be informed the solution my not work if you for got space between the equation.\n Example :-\n        '4x^2 - 5x - 12 = 0'\nEnter the value here:";
+        cout << "Enter a quadratic equation in the form 'ax^2 + bx + c = 0'.\nPlease be informed the solution my not work if you forgot space between the equation.\n Example :-\n        '4x^2 - 5x - 12 = 0'\nEnter the value here:";
         getline(cin, input);
 
         // Parse the quadratic coefficients from the input string
